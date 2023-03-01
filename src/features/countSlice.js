@@ -6,7 +6,7 @@ const initialState = {
 
 const countSlice = createSlice({
   initialState,
-  name: "auth",
+  name: "count",
   reducers: {
     add: (state, action) => {
       state.value += action.payload;
